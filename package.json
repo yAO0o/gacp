@@ -1,0 +1,28 @@
+{
+  "name": "jqyao-gacp",
+  "version": "0.1.0",
+  "description": "easy git tool",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "gacp": "index.js"
+  },
+  "keywords": [
+    "git",
+    "shell"
+  ],
+  "author": "jq.yao",
+  "license": "ISC",
+  "dependencies": {
+    "fs-extra": "^4.0.1",
+    "inquirer": "^3.2.3",
+    "listr": "^0.12.0",
+    "babel-polyfill": "^6.23.0",
+    "chalk": "^2.1.0",
+    "commander": "^2.9.0",
+    "execa": "^0.8.0",
+    "yargs": "^8.0.2"
+  }
+}
